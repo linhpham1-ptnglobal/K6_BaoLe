@@ -1,0 +1,56 @@
+{
+    "contextPath": "https://hmcts.mcgirrtech.com/HMCTSQA-AZURE",
+    "sampleCase": {
+        "forwardToHearingRequirement": "Y",
+        "mtrJsCode": "CIV",
+        "mtrCategory": "13",
+        "mtrMatterCd": "19",
+        "mtrMatterType": "2",
+        "areaCode": "TSR",
+        "mtrRegCode": "TV",
+        "homeLocation": "300",
+        "mtrRecDate": "14-12-2022",
+        "mtrNumberAdded": "UJ1_",
+        "mtrAltTitle": "UJ1_"
+    },
+    "sampleListingRequirement": {
+        "listingEventTypeId": "36",
+        "listingStatus": "DRAFT",
+        "hearingDuration": "5",
+        "autoListingFlag": true,
+        "listAfterDateStr": "09-12-2022 00:00",
+        "listBeforeDateStr": "11-12-2022 00:00",
+
+        "sessionsArray": "CCCMC",
+        "portableEquipmentArray": "2",
+        "otherConsiderationsArray": "",
+        "attributeArray": "1",
+        "empTypesArray": "DDJ",
+        "hearingMethodsArray": "INTER",
+        "johTicketsArray": "AC",
+        "specialismsArray": ""
+    },
+    "venueBookingQueryParams": {
+        "sessionTime": "LOC",
+        "bookingDateNew": "22-Dec-2022",
+        "locality": "300",
+        "location": "301"
+    },
+    "sampleVenueBooking": {
+        "startTime": "22-12-2022",
+        "editableStartTime": "22-12-2022",
+        "pattern": "test1",
+        "editableEndTime": "24-12-2022",
+        "recurringDay2": "2",
+        "recurringDay3": "3",
+        "recWeeks": "1",
+        "startHour": "08:00",
+        "convertedEndTime": "08:05",
+        "location": "300",
+        "evtLocationCode": "301",
+        "jsCode": "CIV",
+        "empTypesArray": "DDJ",
+        "venueBookingTypeCode": "3",
+        "defListingDuration": "30"
+    }
+}

@@ -1,0 +1,238 @@
+{
+    "contextPath": "http://localhost:8088/trunk_mcms",
+    "userListFilters": {
+        "params": {
+            "page": 1,
+            "pageSize": 10,
+            "searchContent": "",
+            "order": "asc",
+            "column": "0",
+            "showInactive": false,
+            "filter": {
+                "personalDetails": {
+                    "name": "",
+                    "bussinessPhone": ""
+                },
+                "systemDetails": {
+                    "regions": [],
+                    "clusters": [],
+                    "courts": []
+                },
+                "employmentDetails": {
+                    "jobRoles": []
+                },
+                "jurisdictions": [],
+                "shortNotice": false
+            }
+        }
+    },
+    "personalDetailsSubmit": {
+        "businessPhone": null,
+        "conflictOfEntity": [],
+        "conflictOfInterestExternal": null,
+        "conflictOfInterestParty": null,
+        "disability": false,
+        "email": "jmeterUser2001@mcgirrtech.com",
+        "entityList": [],
+        "gender": null,
+        "givenNames": "Jmeter",
+        "homePhone": null,
+        "mailbox": null,
+        "mailboxInvalidFlag": false,
+        "mobilePhone": null,
+        "personalEmail": null,
+        "postalAddress": null,
+        "relatedUsers": [],
+        "residentialAddress": null,
+        "specialMeasures": [],
+        "specialMeasuresInfo": null,
+        "surname": "User2001",
+        "title": null,
+        "linkedEntity": "",
+        "conflictOfData": []
+    },
+    "personalDetailsEmail": "test@mcgirrtech.com",
+    "systemDetailsSubmit": {
+        "activeFrom": "01-10-2020",
+        "activeTo": "",
+        "areas": [
+            {
+                "area": "TSR",
+                "id": "5153"
+            }
+        ],
+        "courts": [
+            {
+                "id": "5043",
+                "court": "1",
+                "primaryFlag": "true"
+            }
+        ],
+        "defaultHearingScheduleView": null,
+        "excludeFromAnonymisation": false,
+        "financialDelegation": null,
+        "hsLocalities": [
+            {
+                "locality": "JM1",
+                "id": "2003"
+            }
+        ],
+        "isCaseManager": false,
+        "isMember": true,
+        "labelPrinter": null,
+        "laserPrinter": null,
+        "loginId": "jmeterUser2001",
+        "matterView": null,
+        "password1": null,
+        "password2": null,
+        "primaryRegistry": "TV",
+        "printLater": false,
+        "region": null,
+        "secondaryRegistries": [
+            {
+                "registry": "TV",
+                "id": "5043"
+            }
+        ],
+        "securityGroups": [
+            {
+                "group": "446855869"
+            }
+        ],
+        "securityType": "P_RKPNG",
+        "signature1": null,
+        "signature1FileName": null,
+        "signature2": null,
+        "signature2FileName": null,
+        "userId": "7218"
+    },
+    "jurisdictionsSubmit": {
+        "userJurisdiction": [
+            {
+                "canTravel": "true",
+                "employmentDetails": [],
+                "hearingDurPrefCd": null,
+                "id": null,
+                "inactiveDate": "",
+                "inactiveFlag": false,
+                "isCanTravel": true,
+                "jurisdictionCode": "CIV",
+                "jurisdictionDesc": null,
+                "jurisdictionLabel": "Civil",
+                "locationPreferences": [
+                    {
+                        "area": "TSR",
+                        "registry": "TV",
+                        "registryLabel": "Thames Valley",
+                        "localityLabel": "Milton Keynes County Court and Family Court",
+                        "inactiveDate": null,
+                        "locality": "300",
+                        "location": null,
+                        "locationLabel": null,
+                        "id": null,
+                        "areaLabel": "Thames Valley Region",
+                        "primaryFlag": false
+                    }
+                ],
+                "memberTypes": [],
+                "mtrCodes": [],
+                "nationalResourcePools": [],
+                "sessionTypes": [],
+                "shortNoticeFlag": true,
+                "specialisms": [],
+                "split": 0,
+                "travelDetails": null
+            }
+        ]
+    },
+    "workPatternsSubmit": {
+        "workPatterns": [
+            {
+                "startDate": "29-12-2022",
+                "endDate": "01-03-2023",
+                "location": "300",
+                "jurisdiction": "CIV",
+                "recurrance": 1,
+                "maximumDaysPerWeek": 5,
+                "targetSittingPercentage": null,
+                "targetSittingDays": null,
+                "jurisdictionSplit": null,
+                "locationLabel": "Milton Keynes County Court and Family Court",
+                "jurisdictionLabel": "Civil",
+                "detailList": [
+                    {
+                        "availability": "TRAVEL",
+                        "comments": "test comment",
+                        "dayName": "Monday",
+                        "dayNumber": 1,
+                        "startTime": "08:00",
+                        "endTime": "17:00",
+                        "id": null,
+                        "patternId": null
+                    },
+                    {
+                        "availability": "UNAVAIL-DS",
+                        "comments": null,
+                        "dayName": "Tuesday",
+                        "dayNumber": 2,
+                        "startTime": "08:00",
+                        "endTime": "12:00",
+                        "id": null,
+                        "patternId": null
+                    },
+                    {
+                        "availability": null,
+                        "comments": null,
+                        "dayName": "Wednesday",
+                        "dayNumber": 3,
+                        "startTime": null,
+                        "endTime": null,
+                        "id": null,
+                        "patternId": null
+                    },
+                    {
+                        "availability": null,
+                        "comments": null,
+                        "dayName": "Thursday",
+                        "dayNumber": 4,
+                        "startTime": null,
+                        "endTime": null,
+                        "id": null,
+                        "patternId": null
+                    },
+                    {
+                        "availability": null,
+                        "comments": null,
+                        "dayName": "Friday",
+                        "dayNumber": 5,
+                        "startTime": null,
+                        "endTime": null,
+                        "id": null,
+                        "patternId": null
+                    },
+                    {
+                        "availability": null,
+                        "comments": null,
+                        "dayName": "Saturday",
+                        "dayNumber": 6,
+                        "startTime": null,
+                        "endTime": null,
+                        "id": null,
+                        "patternId": null
+                    },
+                    {
+                        "availability": null,
+                        "comments": null,
+                        "dayName": "Sunday",
+                        "dayNumber": 7,
+                        "startTime": null,
+                        "endTime": null,
+                        "id": null,
+                        "patternId": null
+                    }
+                ],
+                "userId": 7218
+            }
+        ]
+    }
+}

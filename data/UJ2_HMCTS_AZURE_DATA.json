@@ -1,0 +1,107 @@
+{
+    "contextPath": "https://hmcts.mcgirrtech.com/HMCTSQA-AZURE",
+    "sampleCase": {
+        "forwardToHearingRequirement": "no",
+        "mtrJsCode": "CIV",
+        "mtrCategory": "13",
+        "mtrMatterCd": "19",
+        "mtrMatterType": "2",
+        "areaCode": "TSR",
+        "mtrRegCode": "TV",
+        "homeLocation": "300",
+        "mtrRecDate": "14-12-2022",
+        "mtrNumberAdded": "UJ2_",
+        "mtrAltTitle": "UJ2_"
+    },
+    "venueBookingQueryParams": {
+        "sessionTime": "LOC",
+        "bookingDateNew": "22-Dec-2022",
+        "locality": "300",
+        "location": "301"
+    },
+    "sampleVenueBooking": {
+        "newListing": true,
+        "jsCode": "CIV",
+        "empTypesArray": "DDJ",
+        "venueBookingTypeCode": "3",
+        "overbooking": "N",
+        "bulkBooking": false,
+        "autoList": false,
+        "youthFlag": false,
+        "defListingDuration": 10
+    },
+    "sampleListing": {
+        "evtEventTypeId": "24",
+        "comments": "test comment",
+        "startHour": "09:00",
+        "endHour": "09:10",
+        "evtListingStatus": "DRAFT",
+        "riskFlag": false,
+        "presidingMember": false
+    },
+    "resourceSchedulerFilters": {
+        "params": {
+            "filter": {
+                "hearingDuration": "",
+                "matterCode": [],
+                "localities": [
+                    "300"
+                ],
+                "sessionTypes": [],
+                "bodyPositions": [],
+                "roomAttribute": [],
+                "portableEquipment": [],
+                "selectedJoh": [],
+                "displayTab": "HSRM",
+                "currentRowSelected": "",
+                "firstAvailable": "N",
+                "savedSearchId": "",
+                "jurisdictionTypes": [],
+                "noOfAttendees": "",
+                "matterId": "",
+                "nationalResourcePools": null,
+                "mtrCategories": [],
+                "multidayHearingHours": "",
+                "dataPeriod": "",
+                "area": [
+                    "TSR"
+                ],
+                "selectedDay": [],
+                "dataType": "R",
+                "hearingDurationSt": 8,
+                "specialism": [],
+                "fromDate": "22-12-2022",
+                "bodyPositionsEx": [],
+                "hearingDurationInc": 5,
+                "multidayHearingWeeks": "",
+                "availability": "E",
+                "multiDay": "",
+                "employeeWorkTypesEx": [],
+                "externalVenue": "E",
+                "memTypesInTemp": [],
+                "registry": [
+                    "TV"
+                ],
+                "currentTabSelected": "HSRM",
+                "venueBookingType": [],
+                "employmentType": [],
+                "toDate": "22-12-2022",
+                "employeeWorkTypesIn": [],
+                "showWeekend": false,
+                "memTypesIn": [],
+                "multiDayLov": "1",
+                "employmentTypeTemp": [
+                    "SALARY"
+                ],
+                "layout": [],
+                "hearingDurationEt": 21,
+                "memTypesEx": [],
+                "partyAvailability": false,
+                "hearingChannel": [],
+                "locations": [],
+                "selectedRoom": [],
+                "multidayHearing": ""
+            }
+        }
+    }
+}
